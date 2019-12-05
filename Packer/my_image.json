@@ -1,0 +1,13 @@
+{
+"builders": [
+    {
+      "type": "googlecompute",
+      "project_id": "gke-cluster-244713",
+      "source_image_family": "ubuntu-1804-lts",
+      "image_name": "my-extra-image",
+      "zone": "europe-west1-b",
+      "ssh_username": "root",
+      "network": "ansible-vpc"
+    }
+  ]
+}
